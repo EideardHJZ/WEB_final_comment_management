@@ -9,7 +9,7 @@ var router = express.Router();
 var db = new sqlite3.Database("./routes/db.db");
 
 router.get("/", function(request, response, next){
-	
+
 	var query = "SELECT * FROM sample_data ORDER BY id DESC";
 	console.log("DataBase Connected");
 

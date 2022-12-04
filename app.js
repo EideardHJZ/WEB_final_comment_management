@@ -28,6 +28,7 @@ app.use('/users', usersRouter);
 
 app.use('/sample_data', sampledataRouter);
 
+console.log("Website:127.0.0.1:3000/sample_data");
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
